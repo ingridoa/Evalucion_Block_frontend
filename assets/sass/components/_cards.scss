@@ -1,0 +1,153 @@
+.seccion-cards-1 {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .containerCard1 {
+    margin-right: 4rem;
+  }
+  
+  .containerCard1__title {
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+  
+  .containerCard1__images {
+    width: 37.6rem;
+    height: 19.6rem;
+    border-radius: 1.25rem;
+  }
+  
+  .sub-containerCard1 {
+    display: flex;
+    align-items: center;
+  }
+  
+  .sub-containerCard1__logo {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 0.5rem;
+    margin-right: 1rem;
+  }
+  
+  .sub-containerCard1__text {
+    font-size: 1.6rem;
+    font-weight: 500;
+  }
+  
+  /* seccion de containerCard2 */
+  
+  .cards2 {
+    display: flex;
+    margin-bottom: 1.5rem;
+  }
+  
+  .cards2__image {
+    width: 12.8rem;
+    height: 10rem;
+    border-radius: 1.25rem;
+    margin-right: 20px;
+  }
+  
+  .container-card2 {
+    line-height: 15px;
+  }
+  
+  .container-card2__title {
+    font-size: 1.25rem;
+    width: 55%;
+    line-height: 25px;
+  }
+  
+  .sub-containerCard2 {
+    display: flex;
+    align-items: center;
+  }
+  
+  .sub-containerCard2__logo {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 2rem;
+    margin-right: 1rem;
+  }
+  
+  .sub-containerCard2__text {
+    font-weight: 500;
+  }
+  
+  /* seccion de card parte 2 populares*/
+  
+  .seccion-2 {
+    padding-right: 3.5rem;
+    padding-left: 3.5rem;
+  }
+  
+  .seccion-card-2 {
+    display: flex;
+    padding-right: 3.5rem;
+    padding-left: 3.5rem;
+    margin: 2rem;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .seccion-populares-cards {
+    display: flex;
+  }
+  
+  .seccion-2-cards{
+    margin: 1rem;
+  }
+  
+  .seccion-2-cards__image {
+    width: 18.6rem;
+    height: 12.5rem;
+    border-radius: 1rem;
+  }
+  
+  .sub-seccion-2-cards {
+    display: flex;
+    align-items: center;
+  }
+  
+  .sub-seccion-2-cards__logo {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 1rem;
+    margin-right: 1rem;
+  }
+  
+  .sub-seccion-2-cards__text {
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  /*Seccion de Noticia*/
+  
+  .seccion-noticia {
+
+    padding: 3rem;
+    margin: 3rem 5rem;
+  }
+  
+  .seccion-card-noticia {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .seccion-noticia-boostrap {
+    background-color: rgb(237, 237, 237);
+    border-radius: 0.5rem;
+    padding: 3rem;
+  
+    &__img--img {
+      max-width: 45%;
+      height: 19rem;
+      border-radius: 1rem;
+      margin: 3% 25%;
+      object-fit: cover;
+    }
+  }
+  
+  
+  

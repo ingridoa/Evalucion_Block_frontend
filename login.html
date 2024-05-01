@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- VINCULO EL .css QUE CREA/CREARÁ SASS con main.scss -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Login</title>
+  </head>
+  <body>
+    <header class="header">
+      <img
+        src="./assets/images/logos/adl.png"
+        class="header__logo"
+        alt="logo-de-desafíos-latam"
+      />
+      <h2 class="header__title">Blog FrontEnd</h2>
+    </header>
+    <hr />
+
+    <main class="main">
+      <form action="./index.html" class="form-login">
+        <div class="input-container">
+          <h2 class="input-container__title">Bienvenido</h2>
+          <input
+            class="input-container__input"
+            type="email"
+            name=""
+            id=""
+            placeholder="Ingrese su email aqui..."
+          />
+          <input
+            class="input-container__input"
+            type="password"
+            name=""
+            id=""
+            placeholder="Ingrese su contraseña aqui..."
+          />
+          <div class="remember-container">
+            <div class="checkbox-container">
+              <input
+                class="checkbox-container__checkbox-input"
+                type="checkbox"
+                id="rememberMe"
+              />
+              <label for="rememberMe">Recordarme</label>
+            </div>
+            <!--span olvidaste contraseña -->
+            <a href="#">¿Olvidaste tu contraseña?</a>
+          </div>
+        </div>
+
+        <div class="buttons-container">
+          <button
+            class="buttons-container__button buttons-container__button--login"
+          >
+            Iniciar sesión
+          </button>
+          <button
+            class="buttons-container__button buttons-container__button--google-login"
+          >
+            <img
+              class="buttons-container__image"
+              src="https://rotulosmatesanz.com/wp-content/uploads/2017/09/2000px-Google_G_Logo.svg_.png"
+              alt="google-logo"
+            />
+            <span>Iniciar sesión con Google</span>
+          </button>
+          <p class="buttons-container__register-text">
+            No tienes cuenta?
+            <a class="buttons-container__register-link" href="registro.html"
+              >Registrate
+            </a>
+          </p>
+        </div>
+      </form>
+    </main>
+  </body>
+</html>
